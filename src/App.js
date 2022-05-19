@@ -9,7 +9,7 @@ function App() {
   return (
     <div className={`${mode} `} >
       <div>
-        <h1 className='menu'>Menu Items</h1>
+        <h1 className='menu'>Menu List</h1>
         <hr style={{width : "10vh" , color:"black" , marginLeft:"47%"}}></hr>
         <div className='menubutton'>
           <Button className={`btn-${mode} btn bg-transparent`}>All</Button>
